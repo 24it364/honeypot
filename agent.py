@@ -12,4 +12,3 @@ REPLIES = [
 
 def agent_reply():
     return random.choice(REPLIES)
-
