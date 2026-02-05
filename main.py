@@ -6,8 +6,6 @@ import requests
 
 app = FastAPI()
 
-API_KEY = "123456"
-
 sessions = {}
 
 @app.post("/honeypot")
